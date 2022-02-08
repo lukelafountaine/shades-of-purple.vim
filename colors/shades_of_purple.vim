@@ -1,7 +1,7 @@
 " ===============================================================
 " shades_of_purple
-" 
-" URL: 
+"
+" URL:
 " Author: Alexander Keliris
 " License: MIT
 " Last Change: 2020/11/08 11:37
@@ -185,11 +185,6 @@ hi typescriptAliasDeclaration guifg=#FAD000 ctermfg=220 guibg=NONE ctermbg=NONE 
 hi typescriptInterfaceKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi typescriptAliasKeyword guifg=#FAEFA5 ctermfg=229 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
 hi typescriptExport guifg=#FF9D00 ctermfg=214 guibg=NONE ctermbg=NONE gui=Italic cterm=Italic
-
-if exists('*term_setansicolors')
-  let g:terminal_ansi_colors = repeat([0], 16)
-
-endif
 
 if has('nvim')
 endif
